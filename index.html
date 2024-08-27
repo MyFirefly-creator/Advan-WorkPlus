@@ -1,0 +1,476 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+  <title>Advan WorkPlus</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background-color: #1a1a1a; 
+      color: #00ffcc; 
+    }
+    .navbar {
+  background-color: #001f3f;
+  border-bottom: 2px solid #00ffff;
+}
+
+.navbar-brand, .navbar-nav .nav-link {
+  color: #00ffff; 
+}
+
+.navbar-nav .nav-link.active {
+  color: #ff00ff;
+}
+
+.wlcm {
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(135deg, #0a0a0a, #1c1c1c);
+  color: #ffffff;
+  position: relative;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8); 
+}
+
+.wlcm h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.wlcm p {
+  font-size: 1.2rem;
+  max-width: 800px;
+  margin: 0 auto;
+  color: #e0e0e0;
+}
+
+    .feature-section {
+  padding: 60px 20px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 400px;
+  position: relative;
+  color: #e0e0e0;
+  overflow: hidden;
+}
+
+.feature-section .text {
+  background: rgba(0, 0, 0, 0.85); 
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  color: #e0e0e0;
+}
+
+.footer {
+  background-color: #001f3f; 
+  color: #00ffff; 
+  text-align: center;
+  padding: 20px 0;
+  border-top: 2px solid #00ffff;
+}
+
+.footer svg {
+  fill: #00ffff; 
+}
+
+.btn-primary {
+  background-color: #00ffff; 
+  border: none;
+  color: #001f3f; 
+}
+
+.btn-primary:hover {
+  background-color: #0099cc; 
+}
+
+.navbar-toggler {
+  border: none;
+  background-color: #00ffff; 
+}
+
+.form-control {
+  background-color: #333333; 
+  color: #e0e0e0; 
+  border: 1px solid #00ffff;
+}
+
+.btn-outline-light {
+  color: #00ffff; 
+  border-color: #00ffff; 
+}
+
+.btn-outline-light:hover {
+  background-color: #00ffff; 
+  color: #001f3f; 
+}
+    @media (max-width: 768px) {
+      .feature-section .img-wrapper, .feature-section .text {
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Advan Store</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Beranda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#section">Fitur</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Spek">Spesifikasi</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#FAQ">FAQ</a>
+          </li>
+        </ul>
+        <form class="d-flex ms-3">
+          <input class="form-control me-2" type="search" placeholder="Cari" aria-label="Search">
+          <button class="btn btn-outline-light" type="submit">Cari</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Tetap jangan di ubah -->
+  <div class="wlcm">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 col-md-6">
+          <h1>Selamat Datang di Website Advan WorkPlus</h1>
+          <p>
+            Selamat datang di Advan WorkPlus, tempat di mana teknologi mutakhir bertemu dengan desain elegan. Dirancang untuk memenuhi kebutuhan profesional modern, laptop ini menawarkan performa yang tak tertandingi, tampilan visual yang memukau, dan konektivitas tanpa batas. Temukan bagaimana Advan WorkPlus dapat mengangkat produktivitas Anda ke level yang baru, sambil tetap mempertahankan kenyamanan dan keamanan yang sangat kami utamakan.
+          </p>
+        </div>
+        <div class="col-12 col-md-6">
+          <img src="67icIYlwv8MSQjRxtAZ7Ne8F9669ulREobVw1pxw-removebg-preview.png" alt="Advan WorkPlus">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Section 1: Design -->
+  <div class="feature-section" id="section" style="background-image: url('Screenshot\ 2024-08-26\ 125524.png');">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-6 order-md-2 img-wrapper">
+        </div>
+        <div class="col-12 col-md-6 order-md-1 text">
+          <h2>Desain Canggih yang Memikat Perhatian</h2>
+          <p>
+            Advan WorkPlus bukan sekadar laptop; ini adalah karya seni. Dirancang dengan presisi tinggi, profil ultra-tipis dengan berat hanya 1.3kg dan ketebalan 17.87mm, menjadikan laptop ini sangat portabel dan nyaman digunakan. Setiap kurva dan tepi dirancang dengan teliti untuk menciptakan kombinasi gaya dan fungsi yang sempurna. Finishing mewah dan material premium yang digunakan memberikan kesan elegan yang menarik perhatian di mana pun Anda berada. Baik di kantor maupun saat bepergian, Advan WorkPlus adalah puncak dari kemewahan profesional, memastikan Anda membuat pernyataan tanpa perlu mengucapkan sepatah kata pun.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Section 2: Performance -->
+  <div class="feature-section" style="background-image: url('wallpaperflare.com_wallpaper (1).jpg');">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-6 order-md-1 img-wrapper">
+        </div>
+        <div class="col-12 col-md-6 order-md-2 text">
+          <h2>Performa Super Cepat dengan AMD Ryzen 5 6600H dan RAM 16GB DDR5</h2>
+          <p>
+            Siapkan diri Anda untuk melepaskan kekuatan tak tertandingi dengan Advan WorkPlus, didorong oleh prosesor AMD Ryzen 5 6600H yang sangat tangguh. CPU ini dirancang untuk memberikan performa kilat, menangani bahkan tugas yang paling berat dengan kecepatan dan efisiensi yang menakjubkan. Dipadukan dengan 16GB RAM DDR5 generasi terbaru, kemampuan multitasking Anda akan melampaui batas. Katakan selamat tinggal pada lag dan sambut pengalaman komputasi yang mulus, apakah Anda sedang merender grafis kompleks, menjalankan perangkat lunak berat, atau mengelola banyak aplikasi sekaligus. Advan WorkPlus adalah tiket Anda menuju dunia tanpa batasan.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Section 3: Display -->
+  <div class="feature-section" style="background-image: url('Screenshot\ 2024-08-26\ 124301.png');">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-6 order-md-2 img-wrapper">
+        </div>
+        <div class="col-12 col-md-6 order-md-1 text">
+          <h2>Layar IPS Full HD: Visual Menakjubkan dari Segala Sudut</h2>
+          <p>
+            Advan WorkPlus dilengkapi dengan layar IPS berukuran 14 inci yang menawarkan resolusi Full HD. Teknologi IPS (In-Plane Switching) memastikan bahwa tampilan layar tetap tajam dan akurat, bahkan saat dilihat dari sudut yang ekstrim. Dengan warna yang lebih kaya dan konsistensi yang lebih baik, layar ini membuat segala aktivitas, mulai dari pekerjaan hingga hiburan, menjadi lebih menyenangkan. Apakah Anda sedang bekerja dengan grafik, menonton video, atau browsing internet, layar IPS Advan WorkPlus memberikan pengalaman visual yang memukau dengan detail yang luar biasa dan warna yang hidup.          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Section 4: Dual Fan -->
+  <div class="feature-section" style="background-image: url('Screenshot\ 2024-08-26\ 124146.png');">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-6 order-md-1 img-wrapper">
+        </div>
+        <div class="col-12 col-md-6 order-md-2 text">
+          <h2>Sistem Pendingin Dual Fan</h2>
+          <p>
+            Advan WorkPlus dilengkapi dengan sistem pendingin dual fan canggih yang memastikan performa optimal dan kestabilan suhu saat penggunaan intensif. Dengan desain yang efisien, sistem ini mengurangi panas berlebih dan menjaga laptop tetap dingin bahkan saat melakukan multitasking berat atau bermain game. Nikmati pengalaman komputasi yang mulus tanpa khawatir suhu perangkat yang tinggi.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Section 5: Battery -->
+  <div class="feature-section" style="background-image: url('istockphoto-639301142-612x612.jpg');">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-6 order-md-2 img-wrapper">
+        </div>
+        <div class="col-12 col-md-6 order-md-1 text">
+          <h2>Baterai Tahan Lama untuk Produktivitas Maksimal</h2>
+          <p>
+            Dengan baterai berkapasitas besar, Advan WorkPlus menawarkan daya tahan baterai yang luar biasa, memastikan Anda tetap produktif sepanjang hari tanpa perlu sering mengisi daya. Teknologi pengelolaan energi yang canggih membantu memperpanjang umur baterai, memberikan Anda kebebasan untuk bekerja, belajar, atau bersenang-senang tanpa gangguan.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Section 6: Security -->
+  <div class="feature-section" style="background-image: url('63d8ccafd1f56f6177837af3_The-4-fingerprint-sensor-types.jpg');">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-6 order-md-1 img-wrapper">
+        </div>
+        <div class="col-12 col-md-6 order-md-2 text">
+          <h2>Keamanan Terdepan dengan Sensor Fingerprint</h2>
+          <p>
+            Advan WorkPlus menyediakan tingkat keamanan yang tinggi dengan sensor fingerprint yang terintegrasi. Fitur ini memastikan bahwa hanya Anda yang dapat mengakses perangkat Anda, melindungi data dan privasi Anda dari akses yang tidak sah. Dengan kecepatan dan akurasi tinggi, sensor fingerprint memberikan cara yang aman dan nyaman untuk login.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div style="display: flex; justify-content: center;" id="Spek">
+    <img src="Screenshot_2024-08-26_124550-removebg-preview.png">
+  </div>
+
+  <div class="container-fluid my-5">
+    <div class="row">
+      <div class="col-12 col-md-4 order-md-1" style="text-align: center;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cpu" viewBox="0 0 16 16">
+          <path d="M5 0a.5.5 0 0 1 .5.5V2h1V.5a.5.5 0 0 1 1 0V2h1V.5a.5.5 0 0 1 1 0V2h1V.5a.5.5 0 0 1 1 0V2A2.5 2.5 0 0 1 14 4.5h1.5a.5.5 0 0 1 0 1H14v1h1.5a.5.5 0 0 1 0 1H14v1h1.5a.5.5 0 0 1 0 1H14v1h1.5a.5.5 0 0 1 0 1H14a2.5 2.5 0 0 1-2.5 2.5v1.5a.5.5 0 0 1-1 0V14h-1v1.5a.5.5 0 0 1-1 0V14h-1v1.5a.5.5 0 0 1-1 0V14h-1v1.5a.5.5 0 0 1-1 0V14A2.5 2.5 0 0 1 2 11.5H.5a.5.5 0 0 1 0-1H2v-1H.5a.5.5 0 0 1 0-1H2v-1H.5a.5.5 0 0 1 0-1H2v-1H.5a.5.5 0 0 1 0-1H2A2.5 2.5 0 0 1 4.5 2V.5A.5.5 0 0 1 5 0m-.5 3A1.5 1.5 0 0 0 3 4.5v7A1.5 1.5 0 0 0 4.5 13h7a1.5 1.5 0 0 0 1.5-1.5v-7A1.5 1.5 0 0 0 11.5 3zM5 6.5A1.5 1.5 0 0 1 6.5 5h3A1.5 1.5 0 0 1 11 6.5v3A1.5 1.5 0 0 1 9.5 11h-3A1.5 1.5 0 0 1 5 9.5zM6.5 6a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5z"/>
+        </svg>
+        <p>Processor</p>
+        <p>AMD Ryzen 5 6600H</p>
+      </div>
+      <div class="col-12 col-md-4 order-md-2" style="text-align: center;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-gpu-card" viewBox="0 0 16 16">
+          <path d="M4 8a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0m7.5-1.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3"/>
+          <path d="M0 1.5A.5.5 0 0 1 .5 1h1a.5.5 0 0 1 .5.5V4h13.5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-.5.5H2v2.5a.5.5 0 0 1-1 0V2H.5a.5.5 0 0 1-.5-.5m5.5 4a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5M9 8a2.5 2.5 0 1 0 5 0 2.5 2.5 0 0 0-5 0"/>
+          <path d="M3 12.5h3.5v1a.5.5 0 0 1-.5.5H3.5a.5.5 0 0 1-.5-.5zm4 1v-1h4v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5"/>
+        </svg>
+        <p>GPU</p>
+        <p>AMD Radeon Integrated</p>
+      </div>
+      <div class="col-12 col-md-4 order-md-3" style="text-align: center;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-battery-full" viewBox="0 0 16 16">
+          <path d="M2 6h10v4H2z"/>
+          <path d="M2 4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm10 1a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zm4 3a1.5 1.5 0 0 1-1.5 1.5v-3A1.5 1.5 0 0 1 16 8"/>
+        </svg>
+        <p>Battery</p>
+        <p>58WH Battery</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid my-5">
+    <div class="row">
+      <div class="col-12 col-md-4 order-md-1" style="text-align: center;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-fan" viewBox="0 0 16 16">
+          <path d="M10 3c0 1.313-.304 2.508-.8 3.4a2 2 0 0 0-1.484-.38c-.28-.982-.91-2.04-1.838-2.969a8 8 0 0 0-.491-.454A6 6 0 0 1 8 2c.691 0 1.355.117 1.973.332Q10 2.661 10 3m0 5q0 .11-.012.217c1.018-.019 2.2-.353 3.331-1.006a8 8 0 0 0 .57-.361 6 6 0 0 0-2.53-3.823 9 9 0 0 1-.145.64c-.34 1.269-.944 2.346-1.656 3.079.277.343.442.78.442 1.254m-.137.728a2 2 0 0 1-1.07 1.109c.525.87 1.405 1.725 2.535 2.377q.3.174.605.317a6 6 0 0 0 2.053-4.111q-.311.11-.641.199c-1.264.339-2.493.356-3.482.11ZM8 10c-.45 0-.866-.149-1.2-.4-.494.89-.796 2.082-.796 3.391q0 .346.027.678A6 6 0 0 0 8 14c.94 0 1.83-.216 2.623-.602a8 8 0 0 1-.497-.458c-.925-.926-1.555-1.981-1.836-2.96Q8.149 10 8 10M6 8q0-.12.014-.239c-1.02.017-2.205.351-3.34 1.007a8 8 0 0 0-.568.359 6 6 0 0 0 2.525 3.839 8 8 0 0 1 .148-.653c.34-1.267.94-2.342 1.65-3.075A2 2 0 0 1 6 8m-3.347-.632c1.267-.34 2.498-.355 3.488-.107.196-.494.583-.89 1.07-1.1-.524-.874-1.406-1.733-2.541-2.388a8 8 0 0 0-.594-.312 6 6 0 0 0-2.06 4.106q.309-.11.637-.199M8 9a1 1 0 1 0 0-2 1 1 0 0 0 0 2"/>
+          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
+        </svg>
+        <p>Fan</p>
+        <p>Dual Fan</p>
+      </div>
+      <div class="col-12 col-md-4 order-md-2" style="text-align: center;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-fingerprint" viewBox="0 0 16 16">
+          <path d="M8.06 6.5a.5.5 0 0 1 .5.5v.776a11.5 11.5 0 0 1-.552 3.519l-1.331 4.14a.5.5 0 0 1-.952-.305l1.33-4.141a10.5 10.5 0 0 0 .504-3.213V7a.5.5 0 0 1 .5-.5Z"/>
+          <path d="M6.06 7a2 2 0 1 1 4 0 .5.5 0 1 1-1 0 1 1 0 1 0-2 0v.332q0 .613-.066 1.221A.5.5 0 0 1 6 8.447q.06-.555.06-1.115zm3.509 1a.5.5 0 0 1 .487.513 11.5 11.5 0 0 1-.587 3.339l-1.266 3.8a.5.5 0 0 1-.949-.317l1.267-3.8a10.5 10.5 0 0 0 .535-3.048A.5.5 0 0 1 9.569 8m-3.356 2.115a.5.5 0 0 1 .33.626L5.24 14.939a.5.5 0 1 1-.955-.296l1.303-4.199a.5.5 0 0 1 .625-.329"/>
+          <path d="M4.759 5.833A3.501 3.501 0 0 1 11.559 7a.5.5 0 0 1-1 0 2.5 2.5 0 0 0-4.857-.833.5.5 0 1 1-.943-.334m.3 1.67a.5.5 0 0 1 .449.546 10.7 10.7 0 0 1-.4 2.031l-1.222 4.072a.5.5 0 1 1-.958-.287L4.15 9.793a9.7 9.7 0 0 0 .363-1.842.5.5 0 0 1 .546-.449Zm6 .647a.5.5 0 0 1 .5.5c0 1.28-.213 2.552-.632 3.762l-1.09 3.145a.5.5 0 0 1-.944-.327l1.089-3.145c.382-1.105.578-2.266.578-3.435a.5.5 0 0 1 .5-.5Z"/>
+          <path d="M3.902 4.222a5 5 0 0 1 5.202-2.113.5.5 0 0 1-.208.979 4 4 0 0 0-4.163 1.69.5.5 0 0 1-.831-.556m6.72-.955a.5.5 0 0 1 .705-.052A4.99 4.99 0 0 1 13.059 7v1.5a.5.5 0 1 1-1 0V7a3.99 3.99 0 0 0-1.386-3.028.5.5 0 0 1-.051-.705M3.68 5.842a.5.5 0 0 1 .422.568q-.044.289-.044.59c0 .71-.1 1.417-.298 2.1l-1.14 3.923a.5.5 0 1 1-.96-.279L2.8 8.821A6.5 6.5 0 0 0 3.058 7q0-.375.054-.736a.5.5 0 0 1 .568-.422m8.882 3.66a.5.5 0 0 1 .456.54c-.084 1-.298 1.986-.64 2.934l-.744 2.068a.5.5 0 0 1-.941-.338l.745-2.07a10.5 10.5 0 0 0 .584-2.678.5.5 0 0 1 .54-.456"/>
+          <path d="M4.81 1.37A6.5 6.5 0 0 1 14.56 7a.5.5 0 1 1-1 0 5.5 5.5 0 0 0-8.25-4.765.5.5 0 0 1-.5-.865m-.89 1.257a.5.5 0 0 1 .04.706A5.48 5.48 0 0 0 2.56 7a.5.5 0 0 1-1 0c0-1.664.626-3.184 1.655-4.333a.5.5 0 0 1 .706-.04ZM1.915 8.02a.5.5 0 0 1 .346.616l-.779 2.767a.5.5 0 1 1-.962-.27l.778-2.767a.5.5 0 0 1 .617-.346m12.15.481a.5.5 0 0 1 .49.51c-.03 1.499-.161 3.025-.727 4.533l-.07.187a.5.5 0 0 1-.936-.351l.07-.187c.506-1.35.634-2.74.663-4.202a.5.5 0 0 1 .51-.49"/>
+        </svg>
+        <p>Fingerprint System</p>
+        <p>Fingerprint Security</p>
+      </div>
+      <div class="col-12 col-md-4 order-md-3" style="text-align: center;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-laptop" viewBox="0 0 16 16">
+          <path d="M13.5 3a.5.5 0 0 1 .5.5V11H2V3.5a.5.5 0 0 1 .5-.5zm-11-1A1.5 1.5 0 0 0 1 3.5V12h14V3.5A1.5 1.5 0 0 0 13.5 2zM0 12.5h16a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5"/>
+        </svg>
+        <p>Display</p>
+        <p>IPS FHD Display</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion accordion-flush" id="accordionFlushExample">
+    <div class="accordion-item bg-dark" id="FAQ">
+      <h2 class="accordion-header" id="flush-headingOne">
+        <button class="accordion-button collapsed bg-dark" style="color: white;" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+          1. Apa itu Advan WorkPlus?
+        </button>
+      </h2>
+      <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">
+          Advan WorkPlus adalah laptop premium yang dirancang untuk memenuhi kebutuhan profesional modern. Ditenagai oleh prosesor AMD Ryzen 5 6600H dan dilengkapi dengan 16GB RAM DDR5, laptop ini menawarkan performa tinggi dan desain elegan yang cocok untuk pekerjaan berat dan multitasking.
+        </div>
+      </div>
+    </div>
+    
+    <div class="accordion-item bg-dark">
+      <h2 class="accordion-header" id="flush-headingTwo">
+        <button class="accordion-button collapsed bg-dark" style="color: white;" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+          2. Apa keunggulan utama dari Advan WorkPlus?
+        </button>
+      </h2>
+      <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">
+          Advan WorkPlus menawarkan performa cepat dengan prosesor AMD Ryzen 5, tampilan visual yang menakjubkan berkat layar IPS Full HD, desain tipis dan ringan dengan berat hanya 1,3 kg dan ketebalan 17,87 mm, serta sistem pendingin dual fan yang menjaga suhu tetap stabil selama penggunaan intensif.
+        </div>
+      </div>
+    </div>
+    
+    <div class="accordion-item bg-dark">
+      <h2 class="accordion-header" id="flush-headingThree">
+        <button class="accordion-button collapsed bg-dark" style="color: white;" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+          3. Bagaimana kualitas layar Advan WorkPlus?
+        </button>
+      </h2>
+      <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">
+          Advan WorkPlus dilengkapi dengan layar IPS Full HD 14 inci yang memberikan visual yang tajam dan jernih dari berbagai sudut pandang. Teknologi IPS memastikan warna yang akurat dan konsisten, membuatnya ideal untuk pekerjaan grafis dan hiburan.
+        </div>
+      </div>
+    </div>
+
+    <div class="accordion-item bg-dark">
+      <h2 class="accordion-header" id="flush-headingFour">
+        <button class="accordion-button collapsed bg-dark" style="color: white;" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+          4. Apakah Advan WorkPlus mudah dibawa ke mana saja?
+        </button>
+      </h2>
+      <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">
+          Ya, Advan WorkPlus sangat portabel dengan berat hanya 1,3 kg dan ketebalan 17,87 mm. Desainnya yang ramping dan ringan memudahkan Anda untuk membawa laptop ini ke mana saja, baik untuk bekerja di kantor, kafe, atau dalam perjalanan.
+        </div>
+      </div>
+    </div>
+
+    <div class="accordion-item bg-dark">
+      <h2 class="accordion-header" id="flush-headingFive">
+        <button class="accordion-button collapsed bg-dark" style="color: white;" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+          5. Berapa lama daya tahan baterai Advan WorkPlus?
+        </button>
+      </h2>
+      <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">
+          Advan WorkPlus memiliki baterai berkapasitas besar yang dirancang untuk bertahan sepanjang hari, memastikan Anda tetap produktif tanpa perlu sering mengisi daya. Teknologi pengelolaan energi yang canggih juga membantu memperpanjang umur baterai.
+        </div>
+      </div>
+    </div>
+
+    <div class="accordion-item bg-dark">
+      <h2 class="accordion-header" id="flush-headingSix">
+        <button class="accordion-button collapsed  bg-dark" style="color: white;" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+          6. Apakah Advan WorkPlus aman digunakan?
+        </button>
+      </h2>
+      <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">
+          Tentu saja. Advan WorkPlus dilengkapi dengan sensor fingerprint yang memastikan hanya Anda yang bisa mengakses perangkat ini. Fitur ini memberikan keamanan tingkat tinggi untuk melindungi data dan privasi Anda.
+        </div>
+      </div>
+    </div>
+
+    <div class="accordion-item bg-dark">
+      <h2 class="accordion-header" id="flush-headingSeven">
+        <button class="accordion-button collapsed bg-dark" style="color: white;" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
+          7. Apa jenis port yang tersedia di Advan WorkPlus?
+        </button>
+      </h2>
+      <div id="flush-collapseSeven" class="accordion-collapse collapse" aria-labelledby="flush-headingSeven" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">
+          Advan WorkPlus hadir dengan berbagai port konektivitas lengkap, termasuk USB-C, HDMI, dan port USB lainnya. Ini memungkinkan Anda untuk dengan mudah menghubungkan perangkat tambahan, monitor eksternal, dan berbagai periferal lainnya.
+        </div>
+      </div>
+    </div>
+
+    <div class="accordion-item bg-dark">
+      <h2 class="accordion-header" id="flush-headingEight">
+        <button class="accordion-button collapsed bg-dark" style="color: white;" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseEight">
+          8. Apakah Advan WorkPlus cocok untuk gaming?
+        </button>
+      </h2>
+      <div id="flush-collapseEight" class="accordion-collapse collapse" aria-labelledby="flush-headingEight" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">
+          Meskipun dirancang untuk produktivitas profesional, Advan WorkPlus dengan prosesor AMD Ryzen 5 dan RAM 16GB DDR5 juga mampu menangani beberapa permainan dengan baik. Namun, laptop ini lebih difokuskan pada kinerja multitasking dan aplikasi berat.
+        </div>
+      </div>
+    </div>
+
+    <div class="accordion-item bg-dark">
+      <h2 class="accordion-header" id="flush-headingNine">
+        <button class="accordion-button collapsed bg-dark" style="color: white;" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseNine" aria-expanded="false" aria-controls="flush-collapseNine">
+          9. Apakah ada pilihan warna untuk Advan WorkPlus?
+        </button>
+      </h2>
+      <div id="flush-collapseNine" class="accordion-collapse collapse" aria-labelledby="flush-headingNine" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">
+          Advan WorkPlus tersedia dalam pilihan warna klasik dan elegan, yang menambah kesan premium pada desainnya. Warna yang tersedia akan memberikan tampilan profesional dan modern.
+        </div>
+      </div>
+    </div>
+
+    <div class="accordion-item bg-dark">
+      <h2 class="accordion-header" id="flush-headingTen">
+        <button class="accordion-button collapsed bg-dark" style="color: white;" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTen" aria-expanded="false" aria-controls="flush-collapseTen">
+          10. Di mana saya bisa membeli Advan WorkPlus?
+        </button>
+      </h2>
+      <div id="flush-collapseTen" class="accordion-collapse collapse" aria-labelledby="flush-headingTen" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">
+         <p>Advan WorkPlus tersedia di berbagai toko elektronik terkemuka dan di toko online resmi Advan. Anda juga dapat memesan langsung melalui situs web resmi <a href="https://www.tokopedia.com/advanofficialitstore/advan-laptop-workplus-amd-ryzen-5-6600h-14-fhd-ips-16gb-512gb-win-11-512-gb-9b51f?extParam=cmp%3D1%26ivf%3Dfalse&src=topads">Advan Store.</a></p>
+        </div>
+      </div>
+    </div>
+</div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2024 Advan Store. Semua hak dilindungi.</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-pzjw8f+ua7Kw1TIq90xV4wtJw6TCr5V0A0A5VJ09EzxU3M2abC0H77+I4w+4BG9aS" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>
